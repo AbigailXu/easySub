@@ -10,7 +10,7 @@ sub_q=${6}
 source /u/cs246/setup
 
 if [[ $sub_a == "t" ]] ; then
-        ls ${filePath} | egrep "a${a}q[0-100][a-z]?.txt" > filesList.sh
+        ls ${filePath} | egrep "a${a}q[0-9][a-z]?.txt" > filesList.sh
         while read line; do
                 echo "- Submit $line"
                 st=1
