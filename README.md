@@ -4,4 +4,4 @@
 * Please place the easySub folder in the directory where files (to be submited) are located.
 * If you would like to use a different directory, please change the **assignment_file_path** value in **config.s**h.
 * All settings can be changed in **config.sh**
-* To submit files, run ```bash config.sh```
+* To submit files, run ```bash ./easySub/config.sh```
